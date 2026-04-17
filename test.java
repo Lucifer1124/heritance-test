@@ -15,14 +15,14 @@ class Leaf extends Branch {
     Leaf(String type, String color) {
         super(type, color);
     }
-    void printDetails() {
+    void dis() {
         System.out.println("Type: " + type);
         System.out.println("Color: " + color);
     }
 }
-public class Main {
+public class test {
     public static void main(String[] args) {
-        Leaf myLeaf = new Leaf("Cherry Blossom", "Pink");
-        myLeaf.printDetails();
+        Leaf obj = new Leaf("Cherry Blossom", "Pink");
+        obj.dis();
     }
 }
